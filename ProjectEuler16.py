@@ -1,8 +1,5 @@
-a=2
-for i in range (999):
-    a=a*2
-q=str(a)
-f=0
-for i in q:
-    f+=int(i)
-print (f)
+l=0
+a=[i for i in str(2**1000)]
+for i in a:
+    l+=int(i)
+print(l)
